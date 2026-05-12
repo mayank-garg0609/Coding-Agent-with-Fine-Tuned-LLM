@@ -1,0 +1,115 @@
+Title: Formal Product Design Document Creation
+
+Model Used:
+- Claude Sonnet 4.6
+
+Date:
+- 2026-05-12
+
+Prompt:
+Create a professional presentation script/content for Gamma based on the generated project report and design document.
+
+Presentation Topic:
+G17 – Fine-Tune a Small LLM with LoRA/PEFT + Simple Agent
+
+Team Members:
+- Mayank Garg — 2023UAI1797
+- Rishabh Kumar — 2023UAI1803
+
+Goal:
+Generate concise, visually appealing, presentation-ready content that can directly be pasted into Gamma to create slides automatically.
+
+Instructions:
+- Create slide-wise content
+- Keep each slide concise and presentation-friendly
+- Use bullet points instead of long paragraphs
+- Include titles and subtitles for every slide
+- Maintain a professional technical presentation style
+- Keep total slides between 10–14
+- Add diagrams/workflow descriptions wherever useful
+- Make content visually structured for Gamma AI
+- Focus on clarity, architecture, implementation, and results
+- Use concise technical language
+
+Presentation should include:
+
+1. Title Slide
+   - Project Title
+   - Team Members
+
+2. Problem Statement
+   - Existing issue
+   - Why it matters
+
+3. Project Objectives
+   - Goals of the project
+   - Expected outcomes
+
+4. Proposed Solution
+   - Overview of the system
+   - Core idea
+
+5. System Architecture
+   - Components
+   - Data flow
+   - Model workflow
+   - Mention LoRA/PEFT integration
+
+6. Deep Learning Concepts Used
+   - Transformers
+   - LoRA
+   - PEFT
+   - Fine-tuning
+   - Prompt Engineering
+   - Embeddings
+   - Agent Workflow
+
+7. Training & Implementation
+   - Dataset
+   - Model used
+   - Hyperparameters
+   - Libraries/frameworks
+   - Training pipeline
+
+8. Agent Workflow
+   - Input → LLM → Agent → Output pipeline
+   - Explain inference workflow
+
+9. Results & Evaluation
+   - Metrics
+   - Improvements after fine-tuning
+   - Example outputs
+   - Observations
+
+10. Challenges & Solutions
+   - Memory limitations
+   - Training issues
+   - Debugging
+   - How AI tools helped
+
+11. Future Improvements
+   - Scaling
+   - Better datasets
+   - RAG/tool integration
+   - Deployment improvements
+
+12. Conclusion
+   - Key achievements
+   - Final impact
+
+13. References
+   - Key papers/tools/frameworks
+
+Formatting Requirements:
+- Output in clean slide-by-slide format
+- Use:
+  # Slide X: Title
+  - Bullet points
+
+- Add short speaker notes where useful
+- Add Mermaid diagram code blocks for architecture/workflow slides
+- Keep text compact for Gamma
+- Avoid unnecessary explanations
+- Make the presentation polished and submission-ready
+
+Output ONLY the final presentation content.
