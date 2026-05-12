@@ -1,0 +1,23 @@
+Title: Agent Design Ideas for Fine-Tuned LLM
+
+Model Used:
+- ChatGPT GPT-5.5
+
+Date:
+- 2026-05-11
+
+Prompt:
+I am building a fine-tuned coding agent around a small LLM.
+
+Give me a set of agent ideas that would make the system genuinely useful, not just a chat demo. For each idea, include:
+- the job of the agent
+- the inputs it would consume
+- the outputs it would produce
+- whether it should run automatically or only on demand
+- how it could help compare outputs from multiple LLMs such as Claude, ChatGPT, and Gemini
+
+Please prioritize ideas that are feasible with a small model and a simple tool stack, and briefly explain which idea should be built first.
+
+Notes on Output:
+The response produced agent concepts that were more specific and implementation-friendly than a generic brainstorming list.
+The strongest ideas were the code review workflow, repository-aware refactor helper, and structured task-planning agent.

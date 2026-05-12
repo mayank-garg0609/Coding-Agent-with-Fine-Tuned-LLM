@@ -1,0 +1,26 @@
+Title: Dataset and Model Selection for LoRA Fine-Tuning
+
+Model Used:
+- ChatGPT GPT-5.5
+
+Date:
+- 2026-05-11
+
+Prompt:
+I want to fine-tune a small open model with LoRA or QLoRA for a coding-agent style assistant.
+
+Help me choose:
+- 2 to 3 suitable datasets, preferably from Kaggle or Hugging Face, and explain why each one is useful
+- one or two small model candidates that are realistic for limited GPU resources
+- a recommended starting point if I only want to prove the idea quickly before scaling up
+
+Also suggest a compact test plan so I can measure whether the fine-tuned model is actually better than the base model. The test plan should include:
+- a few automatic metrics or scoring heuristics
+- qualitative checks for coding consistency and usefulness
+- examples of tasks where the improvement should be visible even on a small model
+
+Please keep the answer practical and focused on a low-cost experiment that I can run on Kaggle.
+
+Notes on Output:
+The response gave concrete model and dataset options, plus a realistic validation plan for a limited-compute setup.
+It was especially useful because it framed the project as a small proof-of-concept instead of an expensive training run.

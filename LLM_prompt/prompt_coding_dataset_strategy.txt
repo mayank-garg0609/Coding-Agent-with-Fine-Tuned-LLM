@@ -1,0 +1,25 @@
+Title: Dataset Strategy for Coding Agent
+
+Model Used:
+- ChatGPT GPT-5.5
+
+Date:
+- 2026-05-11
+
+Prompt:
+I want to train a small coding assistant model that helps with code-related tasks and repository workflows.
+
+Suggest a dataset strategy that includes:
+- public datasets that can bootstrap the coding assistant
+- how to convert general instruction-following data into coding-agent training examples
+- whether synthetic data generation is a good idea here
+- a recommended labeling format for tasks, completions, and short explanations
+- how to split data so I can test generalization instead of memorization
+
+Also explain what kind of examples would be most valuable for teaching the model helpfulness, code quality, and useful refactoring suggestions.
+
+If there are better alternatives than training from scratch, include those too.
+
+Notes on Output:
+The answer was useful because it went beyond dataset names and explained how to shape the data for coding-agent behavior.
+The discussion of instruction data, synthetic augmentation, and structured labels was particularly relevant.

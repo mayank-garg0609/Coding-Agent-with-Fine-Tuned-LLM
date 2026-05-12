@@ -1,0 +1,22 @@
+Title: Fine-Tuning Gemma 2B using LoRA/QLoRA
+
+Model Used:
+- ChatGPT GPT-5.5
+
+Date:
+- 2026-05-11
+
+Prompt:
+Design a detailed approach for fine-tuning Gemma 2B using LoRA/QLoRA on Kaggle with limited GPU resources. Include:
+- dataset selection
+- training strategy
+- quantization approach
+- expected outcomes
+- evaluation methods
+- limitations
+
+The solution should focus on building a lightweight coding agent capable of helping with repository tasks and structured code workflows.
+
+Notes on Output:
+The generated output was highly structured and useful for converting directly into a project design document.
+The recommendations regarding QLoRA and evaluation methodology were especially effective.
