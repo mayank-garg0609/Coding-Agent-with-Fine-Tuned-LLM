@@ -1,0 +1,124 @@
+Title: Formal Product Design Document Creation
+
+Model Used:
+- Claude Sonnet 4.6
+
+Date:
+- 2026-05-12
+
+Prompt:
+You are an expert technical report writer and AI project documentation specialist.
+
+I will provide a design document containing the complete details of my project. Your task is to generate a concise, professional, and well-formatted academic project report in PDF-ready markdown format.
+
+Project Details:
+Title: G17 Fine-Tune a Small LLM with LoRA/PEFT + Simple Agent
+
+Team Members:
+- Mayank Garg — 2023UAI1797
+- Rishabh Kumar — 2023UAI1803
+
+Requirements:
+- Keep the report short and concise (approximately 6–10 pages maximum when converted to PDF)
+- Use professional formatting with headings, subheadings, bullet points, tables, and diagrams where appropriate
+- Make the writing technical but easy to understand
+- Use formal academic/project report style
+- Expand content intelligently wherever required
+- Infer missing implementation details from the provided design document if necessary
+- Generate Mermaid diagrams for architecture/workflow diagrams
+- Include proper section numbering
+- Ensure the report is polished and submission-ready
+
+The report MUST contain the following sections:
+
+1. Title Page
+   - Project Title
+   - Team Details
+   - Academic-style formatting
+
+2. Problem Statement
+   - What problem the project solves
+   - Why the problem is important
+
+3. Objectives
+   - Main goals of the project
+   - Expected outcomes
+
+4. System Architecture
+   - Overall architecture explanation
+   - Workflow pipeline
+   - Technologies used
+   - Include Mermaid architecture diagram
+
+5. Deep Learning Concepts Applied
+   Cover concepts such as:
+   - LLM Fine-tuning
+   - LoRA
+   - PEFT
+   - Tokenization
+   - Embeddings
+   - Transformers
+   - Prompt Engineering
+   - Agent Workflow
+   - Inference Pipeline
+   - Training Process
+
+6. Implementation Details
+   - Dataset preparation
+   - Model selection
+   - Fine-tuning pipeline
+   - Hyperparameters
+   - Agent implementation
+   - Libraries/frameworks used
+
+7. Results and Evaluation
+   Include:
+   - Performance metrics
+   - Accuracy/loss/perplexity if available
+   - Sample outputs/examples
+   - Before vs after fine-tuning comparison
+   - Observations and analysis
+
+8. Challenges Faced and Solutions
+   Include:
+   - Technical challenges
+   - GPU/memory constraints
+   - Training instability
+   - Dataset issues
+   - Deployment issues
+   - How LLM tools (Claude/ChatGPT/etc.) assisted in debugging, documentation, coding, or optimization
+
+9. Conclusion
+   - Summary of achievements
+   - Future improvements
+
+10. References
+   Include proper references for:
+   - LoRA papers
+   - PEFT
+   - Hugging Face
+   - Transformers
+   - Any frameworks/tools used
+
+Output Requirements:
+- Output ONLY the complete report in clean markdown format
+- Ensure it can directly be converted into PDF
+- Add page-break suggestions where useful
+- Use tables wherever appropriate
+- Make diagrams visually clean using Mermaid syntax
+- Avoid placeholder text
+- Make the report look polished and professional
+
+Also generate:
+- Abstract section
+- Keywords section
+- Table of Contents
+
+The final filename should be:
+Project_Report.pdf
+
+Now analyze the attached design document thoroughly and generate the complete report.
+
+Notes on Output:
+The generated Report document was well structured and ready to adapt into repository documentation.
+It covered architecture, training, evaluation, and risks in a formal style that matched the project well.
